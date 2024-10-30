@@ -1,0 +1,130 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+    --box-shadow-1: 0px 6px 28px 0px #00000029;
+    --box-shadow-2: 0 2px 37px 0 #0000001a;
+    --box-shadow-3: 0 0 10px #80bd09;
+    --box-shadow-4: 0 0 10px #f25421;
+    --box-shadow-5: 0 0 10px #3f7aed;
+    --box-shadow-6: 0 0 10px #ffb90b;
+    --border-1: 1px solid #00000029;
+    --border-2: 1px solid #0000001a;
+    --border-3: 4px solid #80bd09;
+    --border-4: 4px solid #f25421;
+    --border-5: 4px solid #3f7aed;
+    --border-6: 4px solid #ffb90b;
+    --logo-green: #80bd09;
+    --logo-red: #f25421;
+    --logo-blue: #3f7aed;
+    --logo-yellow: #ffb90b;
+    --gray-1: #f5f5f5;
+    --gray-2: #d3d3d3;
+    --gray-3: #c3c3c3;
+  }
+  
+body {
+    background-color: #ffffff;
+    -webkit-font-smoothing: antialiased;
+}
+
+.section {
+    margin: 5rem 0 3rem 0;
+}
+  
+.section-title {
+    font-size: 32px;
+    font-weight: 700;
+}
+.section-description {
+    font-size: 18px;
+    color: #3b3c3d;
+}
+  
+/* container */
+.main-container {
+    max-width: 1608px;
+    margin: 0 auto;
+}
+
+/* responsive */
+
+@media only screen and (max-width: 768px) {
+    .section {
+      margin: 3rem 0 1.5rem 0;
+    }
+    .section-title {
+      font-size: 24px;
+    }
+    .section-description {
+      font-size: 15px;
+    }
+}
+  
+@media only screen and (min-width: 640px) and (max-width: 768px) {
+    .main-container {
+      padding-left: 1rem;
+      padding-right: 1rem;
+    }
+}
+  
+@media screen and (min-width: 768px) {
+    .main-container {
+      padding-left: 3rem;
+      padding-right: 3rem;
+    }
+}
+  
+@media (min-width: 1024px) {
+    .main-container {
+      padding-left: 8rem;
+      padding-right: 8rem;
+    }
+}
+
+
+/* // multirangeslider  */
+.horizontal-slider {
+  width: 100%;
+  max-width: 500px;
+  height: 20px;
+  /* border-radius: 5px; */
+}
+
+.horizontal-slider .example-track {
+  top: 20px;
+  height: 8px;
+}
+
+.example-track.example-track-0 {
+  background: grey;
+  border-radius: 5px;
+}
+
+.example-track.example-track-1 {
+  background: var(--logo-blue);
+}
+
+.example-track.example-track-2 {
+  background: grey;
+  border-radius: 5px;
+}
+
+.horizontal-slider .example-thumb {
+  
+
+  top: 1px;
+    width: 50px;
+    height: 48px;
+    line-height: 45px;
+    border-radius: 50%;
+    font-size: 0.9em;
+    text-align: center;
+    background-color: #0075FF;
+    color: white;
+    cursor: pointer;
+    /* border: 5px solid gray; */
+    box-sizing: border-box;
+}
+

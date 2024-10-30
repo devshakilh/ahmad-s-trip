@@ -1,0 +1,7 @@
+.bg {
+    background-image: url('../../assets/faq/b2bhomeMap.png');
+    background-size: cover;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}

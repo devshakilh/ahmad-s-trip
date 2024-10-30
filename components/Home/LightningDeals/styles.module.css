@@ -1,0 +1,48 @@
+/* styles.module.css */
+.bgImage {
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.8));
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+    transition: transform 0.3s ease;
+}
+
+.bgImage:hover {
+    transform: scale(1.05);
+}
+
+.child {
+    position: relative;
+}
+
+/* Control Buttons */
+.controlButtonLeft, .controlButtonRight {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 40px;
+    height: 40px;
+    background-color: #fff;
+    color: #fff;
+    font-size: 1.5rem;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.3s ease;
+}
+
+.controlButtonLeft:hover, .controlButtonRight:hover {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.controlButtonLeft {
+    left: 10px;
+}
+
+.controlButtonRight {
+    right: 10px;
+}
+

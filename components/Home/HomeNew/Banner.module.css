@@ -1,0 +1,22 @@
+/* https://cdn.Sharetrip.net/Sharetrip_net/public/images/banner.webp */
+
+
+.textStyle {
+    font-family: Inter,sans-serif!important;
+}
+
+.bgStyle {
+    background-image: url("https://cdn.sharetrip.net/sharetrip_net/public/images/banner.webp");
+    background-size: cover;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    /* height: 588px; */
+}
+
+.active {
+    background-color: #1882FF;
+    color: white;
+    border-radius: 9999px;
+}
+
+
