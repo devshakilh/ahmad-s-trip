@@ -1,0 +1,14 @@
+/* https://cdn.Sharetrip.net/Sharetrip_net/public/images/homeHeadBg.jpg  */
+
+.bgStyle {
+    background-image: url("https://cdn.Sharetrip.net/Sharetrip_net/public/images/homeHeadBg.jpg");
+    background-size: cover;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+
+.cardShadow {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,.16);
+}

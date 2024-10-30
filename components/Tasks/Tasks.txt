@@ -1,0 +1,57 @@
+============== 29-03-2023 ===============
+1. Arko Roy Badhon
+    tasks: https://sharetrip.net
+2. Bikash Dey
+    tasks: Flight Search Page
+3. Md. Shakil Hossain
+    tasks: https://sharetrip.net/spin.html
+
+
+============== 30-03-2023 ===============
+1. Arko Roy Badhon
+    tasks: https://sharetrip.net/terms, Layout component
+2. Bikash Dey
+    tasks: https://sharetrip.net/privacy
+3. Md. Shakil Hossain
+    tasks: ??
+
+
+============== 01-04-2023 ===============
+1. Arko Roy Badhon
+    tasks: https://sharetrip.net/hotel-sitemap, https://sharetrip.net/about
+2. Bikash Dey
+    tasks: https://sharetrip.net/emifaq
+3. Md. Shakil Hossain
+    tasks: previous work fixing
+
+
+
+2. Bikash Chandra Dey
+    tasks: https://sharetrip.net/flight-search?tripType=Return&adult=2&child=1&infant=1&class=Economy&origin=DAC&originCity=Dhaka&originAirport=Bangladesh,%20Hazrat%20Shahjalal%20International%20Airport%20(DAC)&destination=KUL&destinationCity=Kuala%20Lumpur&destinationAirport=Malaysia,%20Kuala%20Lumpur%20International%20Airport%20(KUL)&depart=2023-03-31&depart=2023-04-12&childAge[]=2021-03-29, => FlightSearch Component
+
+============== 31-03-2023 ===============
+1. Arko Roy Badhon
+    tasks: 
+
+2. Bikash Chandra Dey
+    tasks: https://sharetrip.net/privacy, => privacy Page
+
+============== 01-04-2023 ===============
+1. Arko Roy Badhon
+    tasks: 
+
+2. Bikash Chandra Dey
+    tasks: https://sharetrip.net/emifaq, => Emifaq Component
+
+
+============== 02-04-2023 ===============
+1. Arko Roy Badhon
+    tasks: 
+    a. Create the banner - https://sharetrip.net/
+    b. Create the package details page - https://sharetrip.net/package-details/laos/vientiane/laos-land-of-a-million-elephants/ST29PKG20230216767838508961 
+
+
+2. Bikash Chandra Dey
+    tasks: 
+    a. Create the sidenav and the page - https://sharetrip.net/profile
+    b. Then create my account, my booking & Trip coin pages
